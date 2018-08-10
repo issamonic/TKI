@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sx-12"><center><h1>Contact Us</h1></center></div>
+</div>
+<br><br>
+ <div class="row">
+ 	<div class="col-lg-12 col-md-12 col-sm-12">		
+ 	
+ 		<form id="form1">
+ 			<center><div class="alert" >Your message has been sent</div></center><div id="a"><h3></h3></div>
+ 		                <div class="form-group"><center>
+			  				<label for="exampleInputUsername"  class="f1">Your name</label></center>
+					    	<center><input type="text" class="form-control" id="nom" placeholder=" Enter Name"></center>
+				  		</div>
+				  		<div class="form-group">
+					    	<center><label for="exampleInputEmail" class="f1">Email Address</label></center>
+					    	<center><input type="email" class="form-control" id="email" placeholder=" Enter Email id"></center>
+					  	</div>	
+					  	<div class="form-group">
+					        <center><label for="telephone" class="f1">Mobile No.</label></center>    
+					    	<center><input type="tel" class="form-control" id="tel" placeholder=" Enter 10-digit mobile no."></center>
+			  			</div>
+			  			<div class="form-group">
+					    	<center><label for="description" class="f1">Vos Commentaire</label></center>
+					    	<center><input type="textarea" class="form-control" id="txt" placeholder=" Laisser votre commentaire ici..."></center>
+					  	</div>	
+					  </form>
+
+ 	</div>
+ 	 	<div class="col-lg-12 col-md-12 col-sm-12">
+ 	 		<center>
+ 	 		<button type="submit" class="btn btn-sm btn-labeled btn-success" id="submit" onclick="submitForm()"><i class="fa fa-check"></i> SUBMIT</button></center>
+ 	 		<center>
+ 	 		<button type="submit" class="btn btn-sm btn-labeled btn-success" id="submit" onclick="resetForm()"><i class="fa fa-check"></i> RESET</button></center>
+ 	 	</div>
+ </div>
+
+
+
+</body>
+ <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+ <script type="text/javascript" src="main.js"></script>
+</html>
